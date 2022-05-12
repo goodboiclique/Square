@@ -1,7 +1,7 @@
 $(document).ready(function(){
    $('.icon-menu').click(function(event){
-      $('.icon-menu, .menu__body').toggleClass('active')
-      $('body').toggleClass('lock')
+      $('.icon-menu, .menu__body').toggleClass('active'),
+      $('body').toggleClass('lock'),
       $('.slider').slick({
          arrows:false,
          dots:true,
